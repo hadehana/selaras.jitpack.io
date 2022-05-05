@@ -1,0 +1,9 @@
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+dependencies {
+	        implementation 'com.github.hadehana:selaras.jitpack.io:Tag'
+	}
